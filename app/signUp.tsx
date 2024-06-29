@@ -51,7 +51,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
-    backgroundColor: 'lightgrey',
+    backgroundColor: 'darkgrey',
     borderRadius: 10,
     paddingRight: 10,
   },
@@ -59,17 +59,19 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    gap: 20
+    gap: 20,
+    backgroundColor: 'black',
   },
   title: {
     fontSize: 50,
     fontWeight: 'bold',
+    color: 'white',
   },
   textForm: {
     width: 330,
     height: 60,
     fontSize: 18,
-    backgroundColor: 'lightgrey',
+    backgroundColor: 'darkgrey',
     borderRadius: 10,
     padding: 10
   },
